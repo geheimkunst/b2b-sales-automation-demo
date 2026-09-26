@@ -1,0 +1,19 @@
+docs/JOURNEY.md
+  s_f03fe0ec8036d7::t_30936a3c477309 92,120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "77c4b2b35466331220d449599b72430652f7324b",
+  "prompts": {},
+  "sessions": {
+    "s_f03fe0ec8036d7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2ff1c642-ce7c-4ecd-8297-d375724577df",
+        "model": "unknown"
+      },
+      "human_author": "okletstryitnow <saintyvis@gmail.com>"
+    }
+  }
+}
