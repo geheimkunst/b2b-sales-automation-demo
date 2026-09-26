@@ -89,7 +89,7 @@ AFTER: "Analyze using the following fields:
 | 2 | Schema Mismatch (Markdown instead of JSON) | $0.64 | Explicit output schema |
 | 3 | Connection (Gmail not connected) | $0.50 | Integration BEFORE build |
 | 4 | Email Rendering (broken Markdown) | $0 | Plain text instead of HTML |
-| 5 | Production (stable) | $0.49 | - |
+| 5 | Final runs (stable) | $0.49 | - |
 
 **Key Learning: Early validation saves money**
 
@@ -117,6 +117,6 @@ AFTER: "Analyze using the following fields:
 
 ## Next Steps
 
-- **Production Scale:** Monitoring, alerting, multi-user support
+- **Not built:** monitoring, alerting, multi-user support
 - **Custom API Integration:** Integration without no-code platform
 - **Observability:** LangSmith/Helicone for LLM metrics
