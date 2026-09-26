@@ -1,16 +1,32 @@
 # B2B Sales Automation
 
-![Status](https://img.shields.io/badge/Status-Production_Ready-success)
-![ROI](https://img.shields.io/badge/ROI-€3.250/year-brightgreen)
-![Cost](https://img.shields.io/badge/Build_Cost-$3.46-blue)
+> **Practice project.** I built this with Langdock in December 2025 as an exercise.
+> I published it on 18-01-2026 as one commit. All accounts, invoices, and tickets are invented.
+> Nothing here runs in production and no customer uses it.
 
 ## TL;DR
 
-**Problem:** Sales reps spend only 28% of their time selling – the rest goes to admin tasks.
-**Solution:** Hybrid AI – deterministic workflows for reports, probabilistic assistant for analysis.
-**Result:** 2.5h/week saved, 938× ROI.
+**Problem:** Sales reps spend a large part of their week on admin tasks instead of selling.
+**Approach:** A deterministic workflow makes the weekly report. A chat assistant answers ad-hoc questions on the same data.
+**What you see:** One Langdock workflow, one Langdock assistant, and the invented CSV data they read.
 
-[📊 Demo](#what-i-built) • [🔍 Development Story](./docs/JOURNEY.md) • [⚖️ Tool Comparison](./docs/TOOL-COMPARISON.md)
+[Demo](#what-i-built) • [Development Story](./docs/JOURNEY.md) • [Tool Comparison](./docs/TOOL-COMPARISON.md)
+
+---
+
+## Assumption: What the Time Saving Could Be Worth
+
+This is an estimate, not a measurement. Change the inputs and the result changes.
+
+| Input | Value | Source |
+|-------|-------|--------|
+| Time saved per week | 2.5 h | My guess for one weekly report |
+| Users | 1 | Only me, in a test workspace |
+| Hourly rate | 25 € | Assumed |
+| Weeks per year | 52 | |
+| Build cost | 3.46 USD | Langdock usage during 35 test runs, see [JOURNEY.md](./docs/JOURNEY.md) |
+
+Calculation: 2.5 h × 52 weeks × 25 € = 3,250 € per year for one user. Nobody measured this saving in real use.
 
 ---
 
@@ -87,7 +103,7 @@ User-initiated. Variable interpretation. Same data foundation.
 ## Key Technical Decisions
 
 1. **Fail-Fast Validation:** JS validation runs *before* the LLM call → errors caught at $0 cost
-2. **Simulated Data Layer:** CSV files model real API payloads → ready for Salesforce/HubSpot integration
+2. **Simulated Data Layer:** Invented CSV files stand in for a CRM export. A real integration with Salesforce or HubSpot does not exist.
 
 **Key Learning:** 80% of build costs occurred when the Agent executed with bad data. Validate first.
 
@@ -97,7 +113,7 @@ User-initiated. Variable interpretation. Same data foundation.
 
 ## Contact
 
-**Yunus Ishaq** – Sales & AI Enthusiast
+**Yunus Ishaq**, Sales and AI Enthusiast
 
 [![Email](https://img.shields.io/badge/Email-yunus%40ishaq.de-red)](mailto:yunus@ishaq.de)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yunusishaq-blue)](https://www.linkedin.com/in/yunusishaq/)

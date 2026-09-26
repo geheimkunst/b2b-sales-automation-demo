@@ -20,7 +20,7 @@ Instead of theoretically discussing technical skills, I built a working system:
 - **User perspective:** Understand first, then build
 - **Validation > Slide decks:** Test hypotheses with working code
 
-**Result:** A production-ready B2B Sales Reporting Ecosystem – built in 35 test runs for $3.46.
+**Result:** A working demo of a B2B sales reporting setup, built in 35 test runs for $3.46. It is a practice project with invented data.
 
 ---
 
