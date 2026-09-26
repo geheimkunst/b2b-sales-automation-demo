@@ -1,0 +1,21 @@
+docs/JOURNEY.md
+  s_46e8cb6b55dc15::t_034b00ac48c24b 23
+README.md
+  s_46e8cb6b55dc15::t_26492f742e0592 3-5,9-11,13-29,106,116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "88ab8ad683cec5f7e95dd61ad1854ffaf9f25c10",
+  "prompts": {},
+  "sessions": {
+    "s_46e8cb6b55dc15": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a08021c3-21ba-402a-89bc-8891423e2f4f",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "okletstryitnow <saintyvis@gmail.com>"
+    }
+  }
+}
